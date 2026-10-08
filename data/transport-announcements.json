@@ -1,0 +1,51 @@
+{
+  "definition": "Exact ALPN dot/doq in current-round SVCB replies; unique original resolver IPs; either vantage sufficient",
+  "cohort": 351897,
+  "nodes": {
+    "singapore": {
+      "cohort": 347357,
+      "counts": {
+        "dot": 344072,
+        "doq": 6786,
+        "either": 346007,
+        "both": 4851
+      }
+    },
+    "los-angeles": {
+      "cohort": 348769,
+      "counts": {
+        "dot": 345498,
+        "doq": 7409,
+        "either": 347428,
+        "both": 5479
+      }
+    }
+  },
+  "union": {
+    "dot": {
+      "ipv4": 340030,
+      "ipv6": 8561,
+      "total": 348591,
+      "percent": 99.06052055004731
+    },
+    "doq": {
+      "ipv4": 7512,
+      "ipv6": 256,
+      "total": 7768,
+      "percent": 2.2074641159202835
+    },
+    "either": {
+      "ipv4": 341896,
+      "ipv6": 8656,
+      "total": 350552,
+      "percent": 99.61778588621102
+    },
+    "both": {
+      "ipv4": 5645,
+      "ipv6": 161,
+      "total": 5806,
+      "percent": 1.6499146056942797
+    }
+  },
+  "dot_doq_intersection_across_vantages": 5807
+}

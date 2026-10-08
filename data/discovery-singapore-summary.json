@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-10-03T19:45:53.712881+00:00",
+  "complete": true,
+  "plan": {
+    "created_utc": "2026-10-03T01:26:02.413427+00:00",
+    "vantage": "singapore",
+    "zmap_commit": "9c28f459fad8c6d77a0726106ced13c62a84e294",
+    "ipv4_pps": 60000,
+    "ipv4_shards": 256,
+    "seed": 20261003,
+    "ipv4_query": "www.google.com. IN A, UDP 53, one packet per address",
+    "ipv6_query": "www.google.com. IN A, UDP 53, one attempt per address",
+    "qualification": "Matched transaction ID and question, QR=1; retain all RCODEs",
+    "ddr_query": "_dns.resolver.arpa. IN SVCB, EDNS payload 1232",
+    "ddr_retries": "Up to three UDP attempts, then TCP; immediate TCP on TC; stop on complete reply",
+    "timeout_seconds": 2.5,
+    "ipv4_ddr_qps": 1500,
+    "ipv6_combined_qps": 1500,
+    "input_url": "https://alcatraz.net.in.tum.de/ipv6-hitlist-service/open/responsive-addresses.txt.xz",
+    "ipv6_input_sha256": "0849f3ab0afc942b6fe4c773aedddbe523e2bc4eea14d028e660c6150a9c2206",
+    "scanner_sha256": "38e599272bfaacd54cb3a568a96a206d8c1a6c903e46281b1572736c32ebfe83",
+    "blocklist_sha256": "3197c1019aaaf13c6f44033715198b757dc9672f2e2e3307e11c902286ac2e08",
+    "ipv4_discovery_vantage": "los-angeles",
+    "ipv4_svcb_vantage": "singapore",
+    "ipv4_mode": "Import each completed Los Angeles ZMap chunk and independently query DDR from Singapore",
+    "change_utc": "2026-10-03T01:34:37.555386+00:00"
+  },
+  "ipv4": {
+    "batches": 256,
+    "counts": {
+      "inputs": 9852826,
+      "rcode_NXDOMAIN": 894570,
+      "no_svcb_answer": 188376,
+      "rcode_REFUSED": 1874021,
+      "doh_candidate": 363801,
+      "svcb_answer": 364222,
+      "rcode_SERVFAIL": 76389,
+      "rcode_NOTAUTH": 170270,
+      "rcode_FORMERR": 4668,
+      "rcode_NXRRSET": 545,
+      "rcode_NOTIMP": 5319,
+      "no_complete_response": 6274317,
+      "rcode_51": 121,
+      "rcode_NOTZONE": 8
+    },
+    "unique_svcb_ips": 364215,
+    "unique_doh_candidate_ips": 363794
+  },
+  "ipv6": {
+    "batches": 256,
+    "counts": {
+      "inputs": 28302575,
+      "dns_response": 257773,
+      "dns_no_response": 28044802,
+      "no_svcb_answer": 4249,
+      "rcode_REFUSED": 142540,
+      "rcode_NXDOMAIN": 94227,
+      "doh_candidate": 8784,
+      "svcb_answer": 8816,
+      "rcode_NOTAUTH": 3974,
+      "no_complete_response": 2926,
+      "rcode_SERVFAIL": 824,
+      "rcode_FORMERR": 169,
+      "rcode_51": 35,
+      "rcode_NOTIMP": 12,
+      "rcode_NOTZONE": 1
+    },
+    "unique_svcb_ips": 8816,
+    "unique_doh_candidate_ips": 8784
+  },
+  "sha256": {
+    "ipv4-svcb.txt": "eee5a453a531285c74486565a47dcd438c566ca1a1c8b65d53678382e52816c6",
+    "ipv4-doh-candidates.txt": "b423956aff65a4897a72ac41ddc4f7c7ef1a0ecb6d0aabb9ce16aaa76bdee30f",
+    "ipv4-svcb-answers.jsonl.gz": "2f4ae5757e6a6a177380e78cd458c1c86577cb7f766f502ca282ab26671cb7c4",
+    "ipv6-svcb.txt": "092590c877056443589ce30a0f730df7ea264e185d62b8b86ace70653c7c1d35",
+    "ipv6-doh-candidates.txt": "1f05daf1abd506f8876e5a3e136380030939ec2425dba6a7b0f324c72db19d32",
+    "ipv6-svcb-answers.jsonl.gz": "5009591f8aefb8b7be52c621f37cf3b7158a7d1d89ee51a76617136a2c3bb1b6"
+  }
+}

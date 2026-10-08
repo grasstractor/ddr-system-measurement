@@ -1,0 +1,12 @@
+{
+  "captures\\extensions\\20261005\\singapore\\stage-status.json": "f977a6c53ecb33196cb3d736c4bf99cc3c932ba3a74efea82b832436526fdd20",
+  "captures\\extensions\\20261005\\singapore\\rules-summary.json": "72ad4d6d5e39d47839ea61688dfc89dc87f634c8c0e057d8ef6a5ef735bfcc5d",
+  "captures\\extensions\\20261005\\singapore\\export-summary.json": "090e08d8bd34182ea5e9d6f02660e0f9f479fc98c5348a3427537a73486090c0",
+  "captures\\extensions\\20261005\\singapore\\outcomes.jsonl.gz": "c1ed58ce8ae328626914e8df6c6ef7a545e7337c703956b3aa95b7000b6f3428",
+  "captures\\extensions\\20261005\\singapore\\full-semantics-pairs.jsonl.gz": "802c8fd6fdade5e4869fe4e64a9850d76de8756763b97596e47b04ce5cab40a8",
+  "captures\\extensions\\20261005\\los-angeles\\stage-status.json": "9a5f7bb68810a2718b0456e7d6666ba8be625bbac58831f8691a6897a3f12504",
+  "captures\\extensions\\20261005\\los-angeles\\rules-summary.json": "c0094e8bbc35a745a84fd320e23b70267c98f9a02fefccdf77a7299370c5c99c",
+  "captures\\extensions\\20261005\\los-angeles\\export-summary.json": "1599aeef2a83ef6471fde93eed36117bb32a0375828f10ea728d7f227530b7bb",
+  "captures\\extensions\\20261005\\los-angeles\\outcomes.jsonl.gz": "a38d3fa001be6de219860d738936614fea3dc189c39d032654d0e329a0a21f41",
+  "captures\\extensions\\20261005\\los-angeles\\full-semantics-pairs.jsonl.gz": "ce2cc9e548980b7e8406811c9710df605b8bab1eabed3ede0359abad2237464f"
+}

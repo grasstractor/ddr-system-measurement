@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this artifact when using the measurement code or data."
+type: dataset
+title: "From DDR Advertisements to Encrypted DNS: System Policies, Upgrade Availability, and Resolver Continuity — Research Artifacts"
+authors:
+  - family-names: Zhang
+    given-names: Zundong
+  - family-names: Li
+    given-names: Hongtao
+  - family-names: Wei
+    given-names: Junkai
+  - family-names: Zhang
+    given-names: Zhaoxin
+  - family-names: Cheng
+    given-names: Yanan
+repository-code: "https://github.com/grasstractor/ddr-system-measurement"
+url: "https://github.com/grasstractor/ddr-system-measurement"
+date-released: 2026-10-08
+version: 1.0.0
+keywords:
+  - DNS
+  - DDR
+  - encrypted DNS
+  - Internet measurement
+  - operating systems

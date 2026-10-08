@@ -1,0 +1,219 @@
+{
+  "cohort_definition": "Current-round svcb_answer only; exclude no_current_svcb from denominators and failure categories",
+  "nodes": {
+    "singapore": {
+      "utc": "2026-10-04T02:13:57.337925+00:00",
+      "complete": true,
+      "vantage": "singapore",
+      "counts": {
+        "ipv4": {
+          "discovery": {
+            "svcb_answer": 338717
+          },
+          "windows": {
+            "discovery_ineligible": 163696,
+            "endpoint_conditions_failed": 174541,
+            "no_compatible_service": 423,
+            "pass": 57
+          },
+          "android": {
+            "discovery_ineligible": 328287,
+            "endpoint_conditions_failed": 16,
+            "no_compatible_service": 10367,
+            "pass": 47
+          },
+          "macos": {
+            "discovery_ineligible": 8530,
+            "endpoint_conditions_failed": 329709,
+            "no_compatible_service": 423,
+            "pass": 55
+          }
+        },
+        "ipv6": {
+          "discovery": {
+            "svcb_answer": 8640
+          },
+          "windows": {
+            "discovery_ineligible": 2778,
+            "endpoint_conditions_failed": 5801,
+            "no_compatible_service": 34,
+            "pass": 27
+          },
+          "android": {
+            "discovery_ineligible": 8264,
+            "endpoint_conditions_failed": 2,
+            "no_compatible_service": 347,
+            "pass": 27
+          },
+          "macos": {
+            "discovery_ineligible": 56,
+            "endpoint_conditions_failed": 8521,
+            "no_compatible_service": 34,
+            "pass": 29
+          }
+        },
+        "probes": {
+          "h2": 560,
+          "h3": 92,
+          "tls": 3994
+        },
+        "errors": 0
+      },
+      "native_os_execution": false,
+      "sha256": {
+        "ipv4-windows-success.txt": "d2183fd9c38f24ca0eec7d56934c47d57a37eb4630b563db609a477ddc6e2a22",
+        "ipv4-android-success.txt": "ad3880a525db268886df53dbca8fea32ca75b8c234c2d144d28d7ea342295f1d",
+        "ipv4-macos-success.txt": "c48d9b269d81ba92d3f6cbb0f2ec513728a1c46ec2deab6d8fe492ee922cc973",
+        "ipv6-windows-success.txt": "19a54b61238b2ee3cdf228986cd14641da55f65d9eb7bee4c20b55d958b74c23",
+        "ipv6-android-success.txt": "7839246a5b54db403fc7f90d04bcc396d679b7986bdc296aa33b18cba53e5988",
+        "ipv6-macos-success.txt": "05f859906c4900008a446623cc2b504e95c5956f9b26c948e2810e37c5c103cb",
+        "resolvers.jsonl.gz": "2077896fef67038c6b30b005961074aa6b0c24a00522e9e6be61385aa0a3d018"
+      },
+      "cohort_size": 347357
+    },
+    "los-angeles": {
+      "utc": "2026-10-04T02:12:15.154357+00:00",
+      "complete": true,
+      "vantage": "los-angeles",
+      "counts": {
+        "ipv4": {
+          "discovery": {
+            "svcb_answer": 340169
+          },
+          "windows": {
+            "discovery_ineligible": 163912,
+            "endpoint_conditions_failed": 175780,
+            "no_compatible_service": 420,
+            "pass": 57
+          },
+          "android": {
+            "discovery_ineligible": 329602,
+            "endpoint_conditions_failed": 16,
+            "no_compatible_service": 10504,
+            "pass": 47
+          },
+          "macos": {
+            "discovery_ineligible": 3652,
+            "endpoint_conditions_failed": 336042,
+            "no_compatible_service": 420,
+            "pass": 55
+          }
+        },
+        "ipv6": {
+          "discovery": {
+            "svcb_answer": 8600
+          },
+          "windows": {
+            "discovery_ineligible": 2741,
+            "endpoint_conditions_failed": 5799,
+            "no_compatible_service": 33,
+            "pass": 27
+          },
+          "android": {
+            "discovery_ineligible": 8229,
+            "endpoint_conditions_failed": 3,
+            "no_compatible_service": 342,
+            "pass": 26
+          },
+          "macos": {
+            "discovery_ineligible": 57,
+            "endpoint_conditions_failed": 8481,
+            "no_compatible_service": 33,
+            "pass": 29
+          }
+        },
+        "probes": {
+          "h2": 562,
+          "h3": 92,
+          "tls": 3956
+        },
+        "errors": 0
+      },
+      "native_os_execution": false,
+      "sha256": {
+        "ipv4-windows-success.txt": "d2183fd9c38f24ca0eec7d56934c47d57a37eb4630b563db609a477ddc6e2a22",
+        "ipv4-android-success.txt": "ad3880a525db268886df53dbca8fea32ca75b8c234c2d144d28d7ea342295f1d",
+        "ipv4-macos-success.txt": "c48d9b269d81ba92d3f6cbb0f2ec513728a1c46ec2deab6d8fe492ee922cc973",
+        "ipv6-windows-success.txt": "19a54b61238b2ee3cdf228986cd14641da55f65d9eb7bee4c20b55d958b74c23",
+        "ipv6-android-success.txt": "1ff9b710b5ba63950775001eb1810816742d38bb13af386fbb02f48c4e9ed2b8",
+        "ipv6-macos-success.txt": "05f859906c4900008a446623cc2b504e95c5956f9b26c948e2810e37c5c103cb",
+        "resolvers.jsonl.gz": "6de066eed807276eb1b453261653085e3522da7a27da66185e064852848daf1b"
+      },
+      "cohort_size": 348769
+    }
+  },
+  "cross_vantage": {
+    "ipv4": {
+      "current_svcb_cohort": {
+        "singapore": 338717,
+        "los_angeles": 340169,
+        "union": 343161,
+        "both_vantages": 335725
+      },
+      "windows": {
+        "singapore": 57,
+        "los_angeles": 57,
+        "union": 57,
+        "both_vantages": 57,
+        "singapore_only": [],
+        "los_angeles_only": []
+      },
+      "android": {
+        "singapore": 47,
+        "los_angeles": 47,
+        "union": 47,
+        "both_vantages": 47,
+        "singapore_only": [],
+        "los_angeles_only": []
+      },
+      "macos": {
+        "singapore": 55,
+        "los_angeles": 55,
+        "union": 55,
+        "both_vantages": 55,
+        "singapore_only": [],
+        "los_angeles_only": []
+      },
+      "any_profile": 74,
+      "any_profile_success_percent": 0.02156422204154901,
+      "all_profiles": 29
+    },
+    "ipv6": {
+      "current_svcb_cohort": {
+        "singapore": 8640,
+        "los_angeles": 8600,
+        "union": 8736,
+        "both_vantages": 8504
+      },
+      "windows": {
+        "singapore": 27,
+        "los_angeles": 27,
+        "union": 27,
+        "both_vantages": 27,
+        "singapore_only": [],
+        "los_angeles_only": []
+      },
+      "android": {
+        "singapore": 27,
+        "los_angeles": 26,
+        "union": 27,
+        "both_vantages": 26,
+        "singapore_only": [
+          "2620:fe::fe:13"
+        ],
+        "los_angeles_only": []
+      },
+      "macos": {
+        "singapore": 29,
+        "los_angeles": 29,
+        "union": 29,
+        "both_vantages": 29,
+        "singapore_only": [],
+        "los_angeles_only": []
+      },
+      "any_profile": 38,
+      "any_profile_success_percent": 0.434981684981685,
+      "all_profiles": 16
+    }
+  }
+}

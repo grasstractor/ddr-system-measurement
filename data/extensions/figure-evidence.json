@@ -1,0 +1,5847 @@
+{
+  "rules": {
+    "cohort_intersection": 316880,
+    "cohort_union": 323655,
+    "comparison": {
+      "windows/baseline": {
+        "singapore": 84,
+        "los_angeles": 84,
+        "intersection": 84,
+        "union": 84,
+        "same_cohort_sg": 84,
+        "same_cohort_la": 84,
+        "same_cohort_disagree": 0,
+        "same_cohort_agreement_pct": 100.0
+      },
+      "windows/R1": {
+        "singapore": 87,
+        "los_angeles": 87,
+        "intersection": 87,
+        "union": 87,
+        "same_cohort_sg": 87,
+        "same_cohort_la": 87,
+        "same_cohort_disagree": 0,
+        "same_cohort_agreement_pct": 100.0
+      },
+      "windows/R5": {
+        "singapore": 171108,
+        "los_angeles": 172262,
+        "intersection": 169243,
+        "union": 174127,
+        "same_cohort_sg": 169651,
+        "same_cohort_la": 169840,
+        "same_cohort_disagree": 1005,
+        "same_cohort_agreement_pct": 99.68284524110074
+      },
+      "windows/R1+R5": {
+        "singapore": 307929,
+        "los_angeles": 309338,
+        "intersection": 304601,
+        "union": 312666,
+        "same_cohort_sg": 305443,
+        "same_cohort_la": 305516,
+        "same_cohort_disagree": 1757,
+        "same_cohort_agreement_pct": 99.4455314314567
+      },
+      "android/baseline": {
+        "singapore": 74,
+        "los_angeles": 74,
+        "intersection": 74,
+        "union": 74,
+        "same_cohort_sg": 74,
+        "same_cohort_la": 74,
+        "same_cohort_disagree": 0,
+        "same_cohort_agreement_pct": 100.0
+      },
+      "android/R2": {
+        "singapore": 73,
+        "los_angeles": 73,
+        "intersection": 73,
+        "union": 73,
+        "same_cohort_sg": 73,
+        "same_cohort_la": 73,
+        "same_cohort_disagree": 0,
+        "same_cohort_agreement_pct": 100.0
+      },
+      "android/R3": {
+        "singapore": 112,
+        "los_angeles": 114,
+        "intersection": 112,
+        "union": 114,
+        "same_cohort_sg": 112,
+        "same_cohort_la": 114,
+        "same_cohort_disagree": 2,
+        "same_cohort_agreement_pct": 99.99936884625095
+      },
+      "android/R6": {
+        "singapore": 158002,
+        "los_angeles": 159097,
+        "intersection": 156211,
+        "union": 160888,
+        "same_cohort_sg": 156670,
+        "same_cohort_la": 156923,
+        "same_cohort_disagree": 1171,
+        "same_cohort_agreement_pct": 99.63045947992931
+      },
+      "android/R2+R3": {
+        "singapore": 111,
+        "los_angeles": 113,
+        "intersection": 111,
+        "union": 113,
+        "same_cohort_sg": 111,
+        "same_cohort_la": 113,
+        "same_cohort_disagree": 2,
+        "same_cohort_agreement_pct": 99.99936884625095
+      },
+      "android/R2+R6": {
+        "singapore": 164868,
+        "los_angeles": 165910,
+        "intersection": 162993,
+        "union": 167785,
+        "same_cohort_sg": 163483,
+        "same_cohort_la": 163661,
+        "same_cohort_disagree": 1158,
+        "same_cohort_agreement_pct": 99.63456197929816
+      },
+      "android/R3+R6": {
+        "singapore": 162851,
+        "los_angeles": 164053,
+        "intersection": 161088,
+        "union": 165816,
+        "same_cohort_sg": 161462,
+        "same_cohort_la": 161729,
+        "same_cohort_disagree": 1015,
+        "same_cohort_agreement_pct": 99.67968947235548
+      },
+      "android/R2+R3+R6": {
+        "singapore": 171111,
+        "los_angeles": 172262,
+        "intersection": 169246,
+        "union": 174127,
+        "same_cohort_sg": 169654,
+        "same_cohort_la": 169840,
+        "same_cohort_disagree": 1002,
+        "same_cohort_agreement_pct": 99.68379197172432
+      },
+      "macos/baseline": {
+        "singapore": 84,
+        "los_angeles": 84,
+        "intersection": 84,
+        "union": 84,
+        "same_cohort_sg": 84,
+        "same_cohort_la": 84,
+        "same_cohort_disagree": 0,
+        "same_cohort_agreement_pct": 100.0
+      },
+      "macos/R4": {
+        "singapore": 87,
+        "los_angeles": 87,
+        "intersection": 87,
+        "union": 87,
+        "same_cohort_sg": 87,
+        "same_cohort_la": 87,
+        "same_cohort_disagree": 0,
+        "same_cohort_agreement_pct": 100.0
+      },
+      "macos/R5": {
+        "singapore": 259624,
+        "los_angeles": 260843,
+        "intersection": 254895,
+        "union": 265572,
+        "same_cohort_sg": 257788,
+        "same_cohort_la": 257836,
+        "same_cohort_disagree": 5834,
+        "same_cohort_agreement_pct": 98.15892451401162
+      },
+      "macos/R4+R5": {
+        "singapore": 304054,
+        "los_angeles": 305561,
+        "intersection": 300302,
+        "union": 309313,
+        "same_cohort_sg": 301653,
+        "same_cohort_la": 301799,
+        "same_cohort_disagree": 2848,
+        "same_cohort_agreement_pct": 99.10123706134814
+      }
+    },
+    "baseline_union": {
+      "singapore": 112,
+      "los-angeles": 112
+    },
+    "baseline_windows_macos": {
+      "singapore": {
+        "both": 81,
+        "windows_only": [
+          "194.180.189.33",
+          "51.44.65.29",
+          "54.73.98.29"
+        ],
+        "macos_only": [
+          "2001:4860:4860::64",
+          "2001:4860:4860::6464",
+          "47.238.92.121"
+        ]
+      },
+      "los-angeles": {
+        "both": 81,
+        "windows_only": [
+          "194.180.189.33",
+          "51.44.65.29",
+          "54.73.98.29"
+        ],
+        "macos_only": [
+          "2001:4860:4860::64",
+          "2001:4860:4860::6464",
+          "47.238.92.121"
+        ]
+      }
+    }
+  },
+  "cohorts": {
+    "singapore": 319589,
+    "los-angeles": 320946
+  },
+  "rule_summaries": {
+    "singapore": {
+      "complete": true,
+      "vantage": "singapore",
+      "cohort": 319589,
+      "success": {
+        "windows": {
+          "R1+R5": 307929,
+          "R5": 171108,
+          "baseline": 84,
+          "R1": 87
+        },
+        "macos": {
+          "R5": 259624,
+          "R4+R5": 304054,
+          "baseline": 84,
+          "R4": 87
+        },
+        "android": {
+          "R6": 158002,
+          "R2+R6": 164868,
+          "R3+R6": 162851,
+          "R2+R3+R6": 171111,
+          "R3": 112,
+          "R2+R3": 111,
+          "baseline": 74,
+          "R2": 73
+        }
+      },
+      "gains": {
+        "windows": {
+          "R1+R5": 307845,
+          "R5": 171024,
+          "R1": 3
+        },
+        "macos": {
+          "R5": 259540,
+          "R4+R5": 303970,
+          "R4": 3
+        },
+        "android": {
+          "R6": 157928,
+          "R2+R6": 164796,
+          "R3+R6": 162777,
+          "R2+R3+R6": 171039,
+          "R3": 38,
+          "R2+R3": 39,
+          "R2": 1
+        }
+      },
+      "losses": {
+        "android": {
+          "R2": 2,
+          "R2+R3": 2,
+          "R2+R6": 2,
+          "R2+R3+R6": 2
+        }
+      },
+      "deferred": [],
+      "errors": 0
+    },
+    "los-angeles": {
+      "complete": true,
+      "vantage": "los-angeles",
+      "cohort": 320946,
+      "success": {
+        "windows": {
+          "R1+R5": 309338,
+          "R5": 172262,
+          "baseline": 84,
+          "R1": 87
+        },
+        "macos": {
+          "R5": 260843,
+          "R4+R5": 305561,
+          "baseline": 84,
+          "R4": 87
+        },
+        "android": {
+          "R6": 159097,
+          "R2+R6": 165910,
+          "R3+R6": 164053,
+          "R2+R3+R6": 172262,
+          "R3": 114,
+          "R2+R3": 113,
+          "baseline": 74,
+          "R2": 73
+        }
+      },
+      "gains": {
+        "windows": {
+          "R1+R5": 309254,
+          "R5": 172178,
+          "R1": 3
+        },
+        "macos": {
+          "R5": 260759,
+          "R4+R5": 305477,
+          "R4": 3
+        },
+        "android": {
+          "R6": 159023,
+          "R2+R6": 165838,
+          "R3+R6": 163979,
+          "R2+R3+R6": 172190,
+          "R3": 40,
+          "R2+R3": 41,
+          "R2": 1
+        }
+      },
+      "losses": {
+        "android": {
+          "R2": 2,
+          "R2+R3": 2,
+          "R2+R6": 2,
+          "R2+R3+R6": 2
+        }
+      },
+      "deferred": [],
+      "errors": 0
+    }
+  },
+  "semantics": {
+    "singapore": {
+      "tests": {
+        "positive": {
+          "pairs": 4349,
+          "comparable": 4003,
+          "not_comparable": 346,
+          "ad_differences": 10,
+          "answer_differences": 1,
+          "rcode_differences": 1
+        },
+        "nxdomain": {
+          "pairs": 4008,
+          "comparable": 4005,
+          "not_comparable": 3
+        },
+        "signed_valid": {
+          "pairs": 4008,
+          "comparable": 4006,
+          "not_comparable": 2,
+          "ad_differences": 1
+        },
+        "filter_malware": {
+          "pairs": 4008,
+          "comparable": 4004,
+          "answer_differences": 1,
+          "rcode_differences": 1,
+          "not_comparable": 4
+        },
+        "signed_bogus": {
+          "pairs": 4008,
+          "comparable": 4003,
+          "answer_differences": 79,
+          "rcode_differences": 79,
+          "not_comparable": 5
+        },
+        "dns64": {
+          "pairs": 4008,
+          "comparable": 4005,
+          "answer_differences": 383,
+          "not_comparable": 3
+        },
+        "signed_bogus_cd": {
+          "pairs": 4008,
+          "comparable": 4004,
+          "answer_differences": 63,
+          "rcode_differences": 63,
+          "not_comparable": 4
+        },
+        "filter_adult": {
+          "pairs": 4008,
+          "comparable": 4005,
+          "not_comparable": 3
+        }
+      },
+      "originals": 112
+    },
+    "los-angeles": {
+      "tests": {
+        "positive": {
+          "pairs": 4351,
+          "comparable": 4010,
+          "not_comparable": 341,
+          "ad_differences": 13
+        },
+        "nxdomain": {
+          "pairs": 4011,
+          "comparable": 4010,
+          "not_comparable": 1
+        },
+        "signed_valid": {
+          "pairs": 4011,
+          "comparable": 4008,
+          "not_comparable": 3,
+          "ad_differences": 1
+        },
+        "filter_malware": {
+          "pairs": 4011,
+          "comparable": 3990,
+          "not_comparable": 21,
+          "answer_differences": 1,
+          "rcode_differences": 1
+        },
+        "filter_adult": {
+          "pairs": 4011,
+          "comparable": 3990,
+          "answer_differences": 1,
+          "rcode_differences": 1,
+          "not_comparable": 21
+        },
+        "signed_bogus": {
+          "pairs": 4011,
+          "comparable": 4008,
+          "answer_differences": 12,
+          "rcode_differences": 12,
+          "not_comparable": 3
+        },
+        "dns64": {
+          "pairs": 4011,
+          "comparable": 4009,
+          "answer_differences": 384,
+          "not_comparable": 2
+        },
+        "signed_bogus_cd": {
+          "pairs": 4011,
+          "comparable": 4010,
+          "answer_differences": 35,
+          "rcode_differences": 35,
+          "not_comparable": 1
+        }
+      },
+      "originals": 112
+    }
+  },
+  "stable_dns64": {
+    "paths": [
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "146.112.41.2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "146.112.41.2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "doh.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "146.112.41.2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "146.112.41.2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "doh.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:fc::2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:fc::2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "doh.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:fc::2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "208.67.220.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.220.64",
+          "2620:119:fc::2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "doh.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "146.112.41.2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "146.112.41.2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "doh.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "146.112.41.2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "146.112.41.2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "doh.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:fc::2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:fc::2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "doh.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:fc::2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "208.67.222.64",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "208.67.222.64",
+          "2620:119:fc::2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "doh.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "146.112.41.2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "146.112.41.2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "doh.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "146.112.41.2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "146.112.41.2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "doh.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:fc::2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:fc::2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "doh.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:fc::2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:35::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:35::64",
+          "2620:119:fc::2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "doh.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "146.112.41.2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "146.112.41.2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "doh.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "146.112.41.2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "146.112.41.2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "doh.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.220.220",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.220.220",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.222.222",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "208.67.222.222",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:35::35",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:35::35",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          443,
+          "h2",
+          "dns.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:53::53",
+          "dns.opendns.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          443,
+          "h2",
+          "dns.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:53::53",
+          "dns.umbrella.com.",
+          853,
+          "dot",
+          null,
+          null,
+          null,
+          "desktop_dot"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:fc::2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:fc::2",
+          "doh.opendns.com.",
+          443,
+          "h2",
+          "doh.opendns.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:fc::2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "[2620:119:53::64]",
+          "GET",
+          "/dns-query{?dns}",
+          "macos"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      },
+      {
+        "key": [
+          "dns64",
+          "2620:119:53::64",
+          "2620:119:fc::2",
+          "doh.umbrella.com.",
+          443,
+          "h2",
+          "doh.umbrella.com",
+          "POST",
+          "/dns-query{?dns}",
+          "windows"
+        ],
+        "plain": {
+          "ad": false,
+          "answer": [
+            [
+              "ipv4only.arpa.",
+              "AAAA",
+              [
+                "64:ff9b::c000:aa",
+                "64:ff9b::c000:ab"
+              ]
+            ]
+          ],
+          "rcode": "NOERROR"
+        },
+        "encrypted": {
+          "ad": false,
+          "answer": [],
+          "rcode": "NOERROR"
+        }
+      }
+    ],
+    "count": 127,
+    "protocols": {
+      "h2": 95,
+      "dot": 32
+    },
+    "originals": [
+      "208.67.220.64",
+      "208.67.222.64",
+      "2620:119:35::64",
+      "2620:119:53::64"
+    ]
+  },
+  "mac": {
+    "totals": {
+      "cases": 16,
+      "queries": 96,
+      "transports": {
+        "doh": 69,
+        "plain": 27
+      },
+      "api_wire_matches": 96,
+      "authorities": {
+        "154.26.179.42": 69
+      }
+    },
+    "cases": [
+      {
+        "case": "M51",
+        "condition": {
+          "case": "M51",
+          "mode": "authority",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:08:19.665979+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "doh": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M52",
+        "condition": {
+          "case": "M52",
+          "mode": "authority",
+          "authority": "domain",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:09:27.883713+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "plain": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M53",
+        "condition": {
+          "case": "M53",
+          "mode": "authority",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:10:34.701546+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "doh": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M54",
+        "condition": {
+          "case": "M54",
+          "mode": "authority",
+          "authority": "ip",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:11:42.716109+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "doh": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M55",
+        "condition": {
+          "case": "M55",
+          "mode": "authority",
+          "authority": "domain",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:12:50.462240+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "plain": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M56",
+        "condition": {
+          "case": "M56",
+          "mode": "authority",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:13:57.571445+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "doh": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M57",
+        "condition": {
+          "case": "M57",
+          "mode": "semantics",
+          "authority": "both",
+          "discovery": "off",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:15:05.596980+00:00"
+        },
+        "queries": 15,
+        "transports": {
+          "plain": 15
+        },
+        "api_wire_matches": 15,
+        "test_results": {
+          "blocked": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            }
+          ],
+          "nodata": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": []
+            }
+          ],
+          "nxdomain": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "plain",
+              "rcode": "3",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "plain",
+              "rcode": "3",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "plain",
+              "rcode": "3",
+              "addresses": []
+            }
+          ],
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ],
+          "v4only": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M58",
+        "condition": {
+          "case": "M58",
+          "mode": "semantics",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:16:24.936524+00:00"
+        },
+        "queries": 15,
+        "transports": {
+          "doh": 15
+        },
+        "api_wire_matches": 15,
+        "test_results": {
+          "blocked": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            }
+          ],
+          "nodata": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            }
+          ],
+          "nxdomain": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            }
+          ],
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ],
+          "v4only": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M59",
+        "condition": {
+          "case": "M59",
+          "mode": "semantics",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "drift",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:17:44.852810+00:00"
+        },
+        "queries": 15,
+        "transports": {
+          "doh": 15
+        },
+        "api_wire_matches": 15,
+        "test_results": {
+          "blocked": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ],
+          "nodata": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            }
+          ],
+          "nxdomain": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            }
+          ],
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ],
+          "v4only": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M60",
+        "condition": {
+          "case": "M60",
+          "mode": "semantics",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:19:04.437163+00:00"
+        },
+        "queries": 15,
+        "transports": {
+          "doh": 15
+        },
+        "api_wire_matches": 15,
+        "test_results": {
+          "blocked": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "0.0.0.0"
+              ]
+            }
+          ],
+          "nodata": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            }
+          ],
+          "nxdomain": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "doh",
+              "rcode": "3",
+              "addresses": []
+            }
+          ],
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ],
+          "v4only": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M61",
+        "condition": {
+          "case": "M61",
+          "mode": "authority",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "missing",
+          "utc": "2026-10-05T14:20:24.326537+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "plain": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M62",
+        "condition": {
+          "case": "M62",
+          "mode": "authority",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:21:31.568545+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "doh": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "positive": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "192.0.2.123"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M63",
+        "condition": {
+          "case": "M63",
+          "mode": "dns64",
+          "authority": "both",
+          "discovery": "off",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:24:42.965492+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "plain": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "v4only": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "plain",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M64",
+        "condition": {
+          "case": "M64",
+          "mode": "dns64",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:25:56.711982+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "doh": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "v4only": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "case": "M65",
+        "condition": {
+          "case": "M65",
+          "mode": "dns64",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "drift",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:27:10.224983+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "doh": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "v4only": [
+            {
+              "round": 1,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 2,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            },
+            {
+              "round": 3,
+              "success": false,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": []
+            }
+          ]
+        }
+      },
+      {
+        "case": "M66",
+        "condition": {
+          "case": "M66",
+          "mode": "dns64",
+          "authority": "both",
+          "discovery": "on",
+          "B_policy": "matched",
+          "bootstrap": "present",
+          "utc": "2026-10-05T14:28:23.738908+00:00"
+        },
+        "queries": 3,
+        "transports": {
+          "doh": 3
+        },
+        "api_wire_matches": 3,
+        "test_results": {
+          "v4only": [
+            {
+              "round": 1,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            },
+            {
+              "round": 2,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            },
+            {
+              "round": 3,
+              "success": true,
+              "transport": "doh",
+              "rcode": "0",
+              "addresses": [
+                "64:ff9b::c000:27b"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "source_sha256": {
+    "analysis/extensions-20261005/completed-rules-analysis.json": "cf79fc4ea4e36270d73a66d2791e1de55194a5ec6e19ada9ce88ae9e6f55738d",
+    "analysis/extensions-20261005/full-semantics-analysis.json": "73774666078e09a36581ca82f4cf8a27bba076ee007763d74939d1efb6626341",
+    "analysis/extensions-20261005/macos-native/summary.json": "156b73e2e9bce2540dc56b1c644a739ee136b31c9a1f683eb748e3a481c01c81",
+    "captures/extensions/20261005/singapore/rules-summary.json": "72ad4d6d5e39d47839ea61688dfc89dc87f634c8c0e057d8ef6a5ef735bfcc5d",
+    "captures/extensions/20261005/los-angeles/rules-summary.json": "c0094e8bbc35a745a84fd320e23b70267c98f9a02fefccdf77a7299370c5c99c"
+  }
+}

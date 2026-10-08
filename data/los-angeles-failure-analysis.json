@@ -1,0 +1,187 @@
+{
+  "stage_rule": "One category per IP and profile; if multiple paths fail, report furthest stage reached",
+  "stages": {
+    "ipv4": {
+      "windows": {
+        "discovery_ineligible": 163912,
+        "missing_original_ip_san": 174572,
+        "no_compatible_service": 420,
+        "connect_or_handshake_failure": 1198,
+        "certificate_chain_failure": 7,
+        "pass": 57,
+        "target_name_mismatch": 2,
+        "http_or_dns_failure": 1
+      },
+      "android": {
+        "discovery_ineligible": 329602,
+        "no_compatible_service": 10504,
+        "connect_or_handshake_failure": 16,
+        "pass": 47
+      },
+      "macos": {
+        "missing_original_ip_san": 327902,
+        "discovery_ineligible": 3652,
+        "no_compatible_service": 420,
+        "connect_or_handshake_failure": 7850,
+        "certificate_chain_failure": 269,
+        "pass": 55,
+        "target_name_mismatch": 17,
+        "http_or_dns_failure": 4
+      }
+    },
+    "ipv6": {
+      "windows": {
+        "missing_original_ip_san": 5709,
+        "discovery_ineligible": 2741,
+        "connect_or_handshake_failure": 87,
+        "no_compatible_service": 33,
+        "pass": 27,
+        "certificate_chain_failure": 2,
+        "target_name_mismatch": 1
+      },
+      "android": {
+        "discovery_ineligible": 8229,
+        "no_compatible_service": 342,
+        "http_or_dns_failure": 1,
+        "pass": 26,
+        "connect_or_handshake_failure": 2
+      },
+      "macos": {
+        "missing_original_ip_san": 8364,
+        "discovery_ineligible": 57,
+        "connect_or_handshake_failure": 108,
+        "no_compatible_service": 33,
+        "pass": 29,
+        "certificate_chain_failure": 8,
+        "target_name_mismatch": 1
+      }
+    }
+  },
+  "incompatible_service_reasons": {
+    "ipv4": {
+      "windows": {
+        "no_doh_protocol_for_profile": 326,
+        "missing_dns_uri_variable": 10,
+        "invalid_ddr_target": 68,
+        "invalid_dohpath": 9,
+        "invalid_ddr_target;missing_alpn": 1
+      },
+      "android": {
+        "no_doh_protocol_for_profile": 10410,
+        "missing_dns_uri_variable": 10,
+        "invalid_ddr_target": 68,
+        "invalid_dohpath": 9,
+        "invalid_ddr_target;missing_alpn": 1
+      },
+      "macos": {
+        "no_doh_protocol_for_profile": 326,
+        "missing_dns_uri_variable": 10,
+        "invalid_ddr_target": 68,
+        "invalid_dohpath": 9,
+        "invalid_ddr_target;missing_alpn": 1
+      }
+    },
+    "ipv6": {
+      "windows": {
+        "invalid_ddr_target": 7,
+        "missing_dns_uri_variable": 3,
+        "no_doh_protocol_for_profile": 24,
+        "invalid_dohpath": 1
+      },
+      "android": {
+        "no_doh_protocol_for_profile": 333,
+        "invalid_ddr_target": 7,
+        "missing_dns_uri_variable": 3,
+        "invalid_dohpath": 1
+      },
+      "macos": {
+        "invalid_ddr_target": 7,
+        "missing_dns_uri_variable": 3,
+        "no_doh_protocol_for_profile": 24,
+        "invalid_dohpath": 1
+      }
+    }
+  },
+  "most_announced_targets": [
+    [
+      "dns.google.",
+      289045
+    ],
+    [
+      "one.one.one.one.",
+      40415
+    ],
+    [
+      "dns.umbrella.com.",
+      5094
+    ],
+    [
+      "dns.opendns.com.",
+      5094
+    ],
+    [
+      "doh.umbrella.com.",
+      5012
+    ],
+    [
+      "doh.opendns.com.",
+      5012
+    ],
+    [
+      "dns.quad9.net.",
+      3531
+    ],
+    [
+      "family.cloudflare-dns.com.",
+      1823
+    ],
+    [
+      "security.cloudflare-dns.com.",
+      1687
+    ],
+    [
+      "familyshield.opendns.com.",
+      1019
+    ],
+    [
+      "doh.familyshield.opendns.com.",
+      1019
+    ],
+    [
+      "doh.cox.net.",
+      953
+    ],
+    [
+      "dns.adguard-dns.com.",
+      517
+    ],
+    [
+      "doh.att.net.",
+      351
+    ],
+    [
+      "family.adguard-dns.com.",
+      241
+    ],
+    [
+      "adguard-dns.amazoniatelecom.com.br.",
+      122
+    ],
+    [
+      "dns2.dnsfilter.com.",
+      120
+    ],
+    [
+      "dns1.dnsfilter.com.",
+      120
+    ],
+    [
+      "dns64.dns.google.",
+      117
+    ],
+    [
+      "dns10.quad9.net.",
+      117
+    ]
+  ]
+}

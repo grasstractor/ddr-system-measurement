@@ -1,0 +1,28 @@
+{
+  "measurement": "October 2026",
+  "format_version": 1,
+  "files": {
+    "singapore/outcomes.jsonl.gz": {
+      "rows": 319589,
+      "bytes": 2083176,
+      "sha256": "c1ed58ce8ae328626914e8df6c6ef7a545e7337c703956b3aa95b7000b6f3428"
+    },
+    "singapore/full-semantics-pairs.jsonl.gz": {
+      "rows": 32405,
+      "bytes": 8658228,
+      "sha256": "802c8fd6fdade5e4869fe4e64a9850d76de8756763b97596e47b04ce5cab40a8",
+      "comparable_pairs": 32035
+    },
+    "los-angeles/outcomes.jsonl.gz": {
+      "rows": 320946,
+      "bytes": 2092204,
+      "sha256": "a38d3fa001be6de219860d738936614fea3dc189c39d032654d0e329a0a21f41"
+    },
+    "los-angeles/full-semantics-pairs.jsonl.gz": {
+      "rows": 32428,
+      "bytes": 8598761,
+      "sha256": "ce2cc9e548980b7e8406811c9710df605b8bab1eabed3ede0359abad2237464f",
+      "comparable_pairs": 32035
+    }
+  }
+}

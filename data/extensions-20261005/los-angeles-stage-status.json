@@ -1,0 +1,168 @@
+{
+  "utc": "2026-10-07T08:29:47.605135+00:00",
+  "service": "inactive",
+  "refresh": {
+    "utc": "2026-10-05T13:27:35.978517+00:00",
+    "complete": true,
+    "total": 351897,
+    "finished": 351897,
+    "counts": {
+      "svcb_answer": 320946,
+      "rcode_NXDOMAIN": 12018,
+      "no_svcb_answer": 224,
+      "rcode_REFUSED": 311,
+      "rcode_SERVFAIL": 280,
+      "no_complete_response": 18075,
+      "rcode_NOTIMP": 41,
+      "rcode_FORMERR": 1,
+      "rcode_NOTAUTH": 1
+    }
+  },
+  "semantics": {
+    "utc": "2026-10-05T14:00:04.494729+00:00",
+    "completed_new": 32420,
+    "total_saved": 32420,
+    "elapsed_seconds": 4094.0
+  },
+  "semantics_complete": {
+    "complete": true,
+    "vantage": "los-angeles",
+    "counts": {
+      "pairs": 32428,
+      "comparable": 32035,
+      "not_comparable": 393,
+      "answer_differences": 433,
+      "rcode_differences": 49
+    },
+    "tests": {
+      "positive": {
+        "pairs": 4351,
+        "comparable": 4010,
+        "not_comparable": 341
+      },
+      "nxdomain": {
+        "pairs": 4011,
+        "comparable": 4010,
+        "not_comparable": 1
+      },
+      "signed_valid": {
+        "pairs": 4011,
+        "comparable": 4008,
+        "not_comparable": 3
+      },
+      "filter_malware": {
+        "pairs": 4011,
+        "comparable": 3990,
+        "not_comparable": 21,
+        "rcode_differences": 1,
+        "answer_differences": 1
+      },
+      "filter_adult": {
+        "pairs": 4011,
+        "comparable": 3990,
+        "rcode_differences": 1,
+        "answer_differences": 1,
+        "not_comparable": 21
+      },
+      "signed_bogus": {
+        "pairs": 4011,
+        "comparable": 4008,
+        "rcode_differences": 12,
+        "answer_differences": 12,
+        "not_comparable": 3
+      },
+      "dns64": {
+        "pairs": 4011,
+        "comparable": 4009,
+        "answer_differences": 384,
+        "not_comparable": 2
+      },
+      "signed_bogus_cd": {
+        "pairs": 4011,
+        "comparable": 4010,
+        "rcode_differences": 35,
+        "answer_differences": 35,
+        "not_comparable": 1
+      }
+    },
+    "paths": 1337,
+    "preflight_rejected_paths": 340,
+    "originals": 112,
+    "utc": "2026-10-05T14:00:11.860828+00:00",
+    "ca_sha256": "9cc2a774b5198dcff14d9be1e66091f538975d867ce029a96bce15a55dfd730f"
+  },
+  "rules": {
+    "utc": "2026-10-07T00:58:37.804406+00:00",
+    "completed": 320945,
+    "new": 320945,
+    "errors": 0,
+    "new_probes": 1276198,
+    "elapsed_seconds": 125901.2
+  },
+  "rules_complete": {
+    "complete": true,
+    "vantage": "los-angeles",
+    "cohort": 320946,
+    "success": {
+      "windows": {
+        "R1+R5": 309338,
+        "R5": 172262,
+        "baseline": 84,
+        "R1": 87
+      },
+      "macos": {
+        "R5": 260843,
+        "R4+R5": 305561,
+        "baseline": 84,
+        "R4": 87
+      },
+      "android": {
+        "R6": 159097,
+        "R2+R6": 165910,
+        "R3+R6": 164053,
+        "R2+R3+R6": 172262,
+        "R3": 114,
+        "R2+R3": 113,
+        "baseline": 74,
+        "R2": 73
+      }
+    },
+    "gains": {
+      "windows": {
+        "R1+R5": 309254,
+        "R5": 172178,
+        "R1": 3
+      },
+      "macos": {
+        "R5": 260759,
+        "R4+R5": 305477,
+        "R4": 3
+      },
+      "android": {
+        "R6": 159023,
+        "R2+R6": 165838,
+        "R3+R6": 163979,
+        "R2+R3+R6": 172190,
+        "R3": 40,
+        "R2+R3": 41,
+        "R2": 1
+      }
+    },
+    "losses": {
+      "android": {
+        "R2": 2,
+        "R2+R3": 2,
+        "R2+R6": 2,
+        "R2+R3+R6": 2
+      }
+    },
+    "deferred": [],
+    "errors": 0
+  },
+  "semantics_plan": {
+    "originals": 112,
+    "paths": 1677,
+    "rounds": 3
+  },
+  "preflight_rejected_paths": 340
+}

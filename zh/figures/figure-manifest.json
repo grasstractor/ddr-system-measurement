@@ -1,0 +1,40 @@
+{
+  "language": "zh",
+  "vector_pdf_count": 8,
+  "source_evidence_sha256": "a6791a5fde367e52d5bfa2ecf923acf10ed932b715e775f91fa69659c7ac9084",
+  "figures": {
+    "authority-control.pdf": {
+      "bytes": 21171,
+      "sha256": "e2dccec09d1d43aa43742bb01cd98257c38455db7a00601147ddab5d5cc439fb"
+    },
+    "failure-stages.pdf": {
+      "bytes": 21932,
+      "sha256": "df7cbb06241a0d90dbddeff822c42d1dc9937e7ad5012214d9b3969696730c0f"
+    },
+    "methodology.pdf": {
+      "bytes": 56891,
+      "sha256": "a36adb2e7d582088e868c0c6e28ae6356fd4b2efb1054c1c0210b5793086c8da"
+    },
+    "rule-interactions.pdf": {
+      "bytes": 32851,
+      "sha256": "a81570acee9215ba50a726d377606a13b7ebe8185d00a5b591b59e2100d6ca64"
+    },
+    "rule-interventions.pdf": {
+      "bytes": 34594,
+      "sha256": "a82abfe78d7e8e834a8ee93577c40e9200e67898118c0daa7f4b13f3cea20f30"
+    },
+    "semantic-continuity.pdf": {
+      "bytes": 42627,
+      "sha256": "e6c9419732720b89440f204055412400e551986eac007fd1dc409133d9fd2550"
+    },
+    "success-overlap.pdf": {
+      "bytes": 17060,
+      "sha256": "be1c2858391fa1faeb02528336f961667501e03045cb5b4e0b0008341f8724bd"
+    },
+    "ddr-connection-flows.pdf": {
+      "bytes": 98295,
+      "sha256": "d84123f076dc829f1a6bdd6bbdc7c83d098bcf9e0155e7276f9b1818523c22a1"
+    }
+  },
+  "minimum_font_pt": 8.5
+}

@@ -1,0 +1,125 @@
+{
+  "cohort": 351897,
+  "success": {
+    "windows": 84,
+    "android": 74,
+    "macos": 84
+  },
+  "any_success": 112,
+  "all_success": 45,
+  "exclusive_membership": [
+    {
+      "profiles": [
+        "windows",
+        "android",
+        "macos"
+      ],
+      "count": 45
+    },
+    {
+      "profiles": [
+        "windows",
+        "macos"
+      ],
+      "count": 36
+    },
+    {
+      "profiles": [
+        "android"
+      ],
+      "count": 25
+    },
+    {
+      "profiles": [
+        "android",
+        "macos"
+      ],
+      "count": 2
+    },
+    {
+      "profiles": [
+        "windows",
+        "android"
+      ],
+      "count": 2
+    },
+    {
+      "profiles": [
+        "macos"
+      ],
+      "count": 1
+    },
+    {
+      "profiles": [
+        "windows"
+      ],
+      "count": 1
+    }
+  ],
+  "los_angeles_stage_counts": {
+    "windows": {
+      "discovery_ineligible": 166653,
+      "no_compatible_service": 453,
+      "missing_original_ip_san": 180281,
+      "connect_or_handshake_failure": 1285,
+      "certificate_chain_failure": 9,
+      "target_name_mismatch": 3,
+      "http_or_dns_failure": 1,
+      "pass": 84
+    },
+    "android": {
+      "discovery_ineligible": 337831,
+      "no_compatible_service": 10846,
+      "missing_original_ip_san": 0,
+      "connect_or_handshake_failure": 18,
+      "certificate_chain_failure": 0,
+      "target_name_mismatch": 0,
+      "http_or_dns_failure": 1,
+      "pass": 73
+    },
+    "macos": {
+      "discovery_ineligible": 3709,
+      "no_compatible_service": 453,
+      "missing_original_ip_san": 336266,
+      "connect_or_handshake_failure": 7958,
+      "certificate_chain_failure": 277,
+      "target_name_mismatch": 18,
+      "http_or_dns_failure": 4,
+      "pass": 84
+    }
+  },
+  "windows_dot": 80,
+  "macos_doh_plus_tested_dot_union": 87,
+  "macos_doh_plus_tested_dot_intersection": 77,
+  "macos_dot_additions": [
+    "194.180.189.33",
+    "51.44.65.29",
+    "54.73.98.29"
+  ],
+  "success_percent": {
+    "windows": 0.023870621232917586,
+    "android": 0.021028880609951207,
+    "macos": 0.023870621232917586
+  },
+  "input_sha256": {
+    "discovery-los-angeles-summary.json": "fb1c042358bcb1f002ebcd6eb150336f2173426134b2b284b37e5725015fcf28",
+    "discovery-singapore-summary.json": "f97003468b33a09c45be53156efe5b3b2d678162fe92c6cabc5038dd1be0f992",
+    "ip-san-summary.json": "c43d6f99ee902963a576fa522b97f82785c57937e942dcbce4d9946ef36ca715",
+    "ipv4-all-systems-success.txt": "24daf595e85057d75e01f723af9cb115ba3e5dc6eb39b53e6f4b3ec22b0a55f2",
+    "ipv4-android-success-union.txt": "3055c69a5a65e21a50da914d43486a83431c8ff19a87d3b44d2b61d2a579f9ab",
+    "ipv4-any-system-success.txt": "4668f26e9f4e7b16ee8d23b262a8d6f2a65cd9e9a1dec135433f10138d3b63d4",
+    "ipv4-macos-success-union.txt": "24bc81c5aaa33c78833178f40f27eb6ebae27fdc282689b20f59d09cf7927bcd",
+    "ipv4-windows-success-union.txt": "f65e440925536714b0f2b63b002932bfe3c755d2595e5e279681f15b3cb9a829",
+    "ipv6-all-systems-success.txt": "53c2626b3df9bfc45f227c025b77db81b953dd6b4d921762539a030a18f1b586",
+    "ipv6-android-success-union.txt": "2a8efa661f9228c1e8ebe4793e14a39fb2dd0633c6e24385a11a22de30bbdf8e",
+    "ipv6-any-system-success.txt": "7fdc4bad04150b0d0fc686034c5170689de60b36b01c657424d11a08c6b9e3cf",
+    "ipv6-macos-success-union.txt": "856c5493d1e785e3a2bc5ccdd977ba5b252d44aab72a550fe00a5475a5d572a3",
+    "ipv6-windows-success-union.txt": "a4a4ea859cfd5dc5acca8d8302f21341c3b485f9fd99263a1aa4331eeb05cb00",
+    "los-angeles-failure-analysis.json": "6c46fe31d1842b7b9eda362f173957887aa66567441c00544ed73fc8523194cb",
+    "summary.json": "db286b27c34e8c6819421651b40576c6ae4e697dce2598c064609016d49c1f27",
+    "transport-announcements.json": "4c8e2d296ab151068b6403c9d8ce7ceea2a86c8e7d946706dd8653bc87577d6c",
+    "windows-doh-to-dot-success.txt": "4b5650a4f376f23534424dd8ce6322a904f2f76e5e4acc8cf7bd452753233102",
+    "windows-dot-all-success.txt": "4b5650a4f376f23534424dd8ce6322a904f2f76e5e4acc8cf7bd452753233102",
+    "windows-dot-all-summary.json": "3cb3089ffa66f4b9ec364a113e173e3a0c7d27ae76136dcc83c3b6f0a12665b6"
+  }
+}

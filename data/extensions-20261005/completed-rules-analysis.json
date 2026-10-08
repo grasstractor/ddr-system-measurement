@@ -1,0 +1,198 @@
+{
+  "cohort_intersection": 316880,
+  "cohort_union": 323655,
+  "comparison": {
+    "windows/baseline": {
+      "singapore": 84,
+      "los_angeles": 84,
+      "intersection": 84,
+      "union": 84,
+      "same_cohort_sg": 84,
+      "same_cohort_la": 84,
+      "same_cohort_disagree": 0,
+      "same_cohort_agreement_pct": 100.0
+    },
+    "windows/R1": {
+      "singapore": 87,
+      "los_angeles": 87,
+      "intersection": 87,
+      "union": 87,
+      "same_cohort_sg": 87,
+      "same_cohort_la": 87,
+      "same_cohort_disagree": 0,
+      "same_cohort_agreement_pct": 100.0
+    },
+    "windows/R5": {
+      "singapore": 171108,
+      "los_angeles": 172262,
+      "intersection": 169243,
+      "union": 174127,
+      "same_cohort_sg": 169651,
+      "same_cohort_la": 169840,
+      "same_cohort_disagree": 1005,
+      "same_cohort_agreement_pct": 99.68284524110074
+    },
+    "windows/R1+R5": {
+      "singapore": 307929,
+      "los_angeles": 309338,
+      "intersection": 304601,
+      "union": 312666,
+      "same_cohort_sg": 305443,
+      "same_cohort_la": 305516,
+      "same_cohort_disagree": 1757,
+      "same_cohort_agreement_pct": 99.4455314314567
+    },
+    "android/baseline": {
+      "singapore": 74,
+      "los_angeles": 74,
+      "intersection": 74,
+      "union": 74,
+      "same_cohort_sg": 74,
+      "same_cohort_la": 74,
+      "same_cohort_disagree": 0,
+      "same_cohort_agreement_pct": 100.0
+    },
+    "android/R2": {
+      "singapore": 73,
+      "los_angeles": 73,
+      "intersection": 73,
+      "union": 73,
+      "same_cohort_sg": 73,
+      "same_cohort_la": 73,
+      "same_cohort_disagree": 0,
+      "same_cohort_agreement_pct": 100.0
+    },
+    "android/R3": {
+      "singapore": 112,
+      "los_angeles": 114,
+      "intersection": 112,
+      "union": 114,
+      "same_cohort_sg": 112,
+      "same_cohort_la": 114,
+      "same_cohort_disagree": 2,
+      "same_cohort_agreement_pct": 99.99936884625095
+    },
+    "android/R6": {
+      "singapore": 158002,
+      "los_angeles": 159097,
+      "intersection": 156211,
+      "union": 160888,
+      "same_cohort_sg": 156670,
+      "same_cohort_la": 156923,
+      "same_cohort_disagree": 1171,
+      "same_cohort_agreement_pct": 99.63045947992931
+    },
+    "android/R2+R3": {
+      "singapore": 111,
+      "los_angeles": 113,
+      "intersection": 111,
+      "union": 113,
+      "same_cohort_sg": 111,
+      "same_cohort_la": 113,
+      "same_cohort_disagree": 2,
+      "same_cohort_agreement_pct": 99.99936884625095
+    },
+    "android/R2+R6": {
+      "singapore": 164868,
+      "los_angeles": 165910,
+      "intersection": 162993,
+      "union": 167785,
+      "same_cohort_sg": 163483,
+      "same_cohort_la": 163661,
+      "same_cohort_disagree": 1158,
+      "same_cohort_agreement_pct": 99.63456197929816
+    },
+    "android/R3+R6": {
+      "singapore": 162851,
+      "los_angeles": 164053,
+      "intersection": 161088,
+      "union": 165816,
+      "same_cohort_sg": 161462,
+      "same_cohort_la": 161729,
+      "same_cohort_disagree": 1015,
+      "same_cohort_agreement_pct": 99.67968947235548
+    },
+    "android/R2+R3+R6": {
+      "singapore": 171111,
+      "los_angeles": 172262,
+      "intersection": 169246,
+      "union": 174127,
+      "same_cohort_sg": 169654,
+      "same_cohort_la": 169840,
+      "same_cohort_disagree": 1002,
+      "same_cohort_agreement_pct": 99.68379197172432
+    },
+    "macos/baseline": {
+      "singapore": 84,
+      "los_angeles": 84,
+      "intersection": 84,
+      "union": 84,
+      "same_cohort_sg": 84,
+      "same_cohort_la": 84,
+      "same_cohort_disagree": 0,
+      "same_cohort_agreement_pct": 100.0
+    },
+    "macos/R4": {
+      "singapore": 87,
+      "los_angeles": 87,
+      "intersection": 87,
+      "union": 87,
+      "same_cohort_sg": 87,
+      "same_cohort_la": 87,
+      "same_cohort_disagree": 0,
+      "same_cohort_agreement_pct": 100.0
+    },
+    "macos/R5": {
+      "singapore": 259624,
+      "los_angeles": 260843,
+      "intersection": 254895,
+      "union": 265572,
+      "same_cohort_sg": 257788,
+      "same_cohort_la": 257836,
+      "same_cohort_disagree": 5834,
+      "same_cohort_agreement_pct": 98.15892451401162
+    },
+    "macos/R4+R5": {
+      "singapore": 304054,
+      "los_angeles": 305561,
+      "intersection": 300302,
+      "union": 309313,
+      "same_cohort_sg": 301653,
+      "same_cohort_la": 301799,
+      "same_cohort_disagree": 2848,
+      "same_cohort_agreement_pct": 99.10123706134814
+    }
+  },
+  "baseline_union": {
+    "singapore": 112,
+    "los-angeles": 112
+  },
+  "baseline_windows_macos": {
+    "singapore": {
+      "both": 81,
+      "windows_only": [
+        "194.180.189.33",
+        "51.44.65.29",
+        "54.73.98.29"
+      ],
+      "macos_only": [
+        "2001:4860:4860::64",
+        "2001:4860:4860::6464",
+        "47.238.92.121"
+      ]
+    },
+    "los-angeles": {
+      "both": 81,
+      "windows_only": [
+        "194.180.189.33",
+        "51.44.65.29",
+        "54.73.98.29"
+      ],
+      "macos_only": [
+        "2001:4860:4860::64",
+        "2001:4860:4860::6464",
+        "47.238.92.121"
+      ]
+    }
+  }
+}

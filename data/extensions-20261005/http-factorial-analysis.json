@@ -1,0 +1,418 @@
+[
+  {
+    "vantage": "los-angeles",
+    "A": "1.1.1.3",
+    "F": "1.1.1.3",
+    "T": "family.cloudflare-dns.com.",
+    "method": "GET",
+    "authority": "1.1.1.3",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "1.1.1.3",
+    "F": "1.1.1.3",
+    "T": "family.cloudflare-dns.com.",
+    "method": "GET",
+    "authority": "family.cloudflare-dns.com",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "1.1.1.3",
+    "F": "1.1.1.3",
+    "T": "family.cloudflare-dns.com.",
+    "method": "POST",
+    "authority": "1.1.1.3",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "1.1.1.3",
+    "F": "1.1.1.3",
+    "T": "family.cloudflare-dns.com.",
+    "method": "POST",
+    "authority": "family.cloudflare-dns.com",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "194.180.189.33",
+    "F": "194.180.189.33",
+    "T": "dnsdoh.art.",
+    "method": "GET",
+    "authority": "194.180.189.33",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_421": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "194.180.189.33",
+    "F": "194.180.189.33",
+    "T": "dnsdoh.art.",
+    "method": "GET",
+    "authority": "dnsdoh.art",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "194.180.189.33",
+    "F": "194.180.189.33",
+    "T": "dnsdoh.art.",
+    "method": "POST",
+    "authority": "194.180.189.33",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_421": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "194.180.189.33",
+    "F": "194.180.189.33",
+    "T": "dnsdoh.art.",
+    "method": "POST",
+    "authority": "dnsdoh.art",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "51.44.65.29",
+    "F": "51.44.57.28",
+    "T": "dns.pants-on.net.",
+    "method": "GET",
+    "authority": "51.44.65.29",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_None": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "51.44.65.29",
+    "F": "51.44.57.28",
+    "T": "dns.pants-on.net.",
+    "method": "GET",
+    "authority": "dns.pants-on.net",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_None": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "51.44.65.29",
+    "F": "51.44.57.28",
+    "T": "dns.pants-on.net.",
+    "method": "POST",
+    "authority": "51.44.65.29",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_None": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "51.44.65.29",
+    "F": "51.44.57.28",
+    "T": "dns.pants-on.net.",
+    "method": "POST",
+    "authority": "dns.pants-on.net",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_None": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "54.73.98.29",
+    "F": "54.73.98.29",
+    "T": "dns.pants-on.net.",
+    "method": "GET",
+    "authority": "54.73.98.29",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_403": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "54.73.98.29",
+    "F": "54.73.98.29",
+    "T": "dns.pants-on.net.",
+    "method": "GET",
+    "authority": "dns.pants-on.net",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "54.73.98.29",
+    "F": "54.73.98.29",
+    "T": "dns.pants-on.net.",
+    "method": "POST",
+    "authority": "54.73.98.29",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_403": 6
+    }
+  },
+  {
+    "vantage": "los-angeles",
+    "A": "54.73.98.29",
+    "F": "54.73.98.29",
+    "T": "dns.pants-on.net.",
+    "method": "POST",
+    "authority": "dns.pants-on.net",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "1.1.1.3",
+    "F": "1.1.1.3",
+    "T": "family.cloudflare-dns.com.",
+    "method": "GET",
+    "authority": "1.1.1.3",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "1.1.1.3",
+    "F": "1.1.1.3",
+    "T": "family.cloudflare-dns.com.",
+    "method": "GET",
+    "authority": "family.cloudflare-dns.com",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "1.1.1.3",
+    "F": "1.1.1.3",
+    "T": "family.cloudflare-dns.com.",
+    "method": "POST",
+    "authority": "1.1.1.3",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "1.1.1.3",
+    "F": "1.1.1.3",
+    "T": "family.cloudflare-dns.com.",
+    "method": "POST",
+    "authority": "family.cloudflare-dns.com",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "194.180.189.33",
+    "F": "194.180.189.33",
+    "T": "dnsdoh.art.",
+    "method": "GET",
+    "authority": "194.180.189.33",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_421": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "194.180.189.33",
+    "F": "194.180.189.33",
+    "T": "dnsdoh.art.",
+    "method": "GET",
+    "authority": "dnsdoh.art",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "194.180.189.33",
+    "F": "194.180.189.33",
+    "T": "dnsdoh.art.",
+    "method": "POST",
+    "authority": "194.180.189.33",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_421": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "194.180.189.33",
+    "F": "194.180.189.33",
+    "T": "dnsdoh.art.",
+    "method": "POST",
+    "authority": "dnsdoh.art",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "51.44.65.29",
+    "F": "51.44.57.28",
+    "T": "dns.pants-on.net.",
+    "method": "GET",
+    "authority": "51.44.65.29",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_None": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "51.44.65.29",
+    "F": "51.44.57.28",
+    "T": "dns.pants-on.net.",
+    "method": "GET",
+    "authority": "dns.pants-on.net",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_None": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "51.44.65.29",
+    "F": "51.44.57.28",
+    "T": "dns.pants-on.net.",
+    "method": "POST",
+    "authority": "51.44.65.29",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_None": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "51.44.65.29",
+    "F": "51.44.57.28",
+    "T": "dns.pants-on.net.",
+    "method": "POST",
+    "authority": "dns.pants-on.net",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_None": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "54.73.98.29",
+    "F": "54.73.98.29",
+    "T": "dns.pants-on.net.",
+    "method": "GET",
+    "authority": "54.73.98.29",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_403": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "54.73.98.29",
+    "F": "54.73.98.29",
+    "T": "dns.pants-on.net.",
+    "method": "GET",
+    "authority": "dns.pants-on.net",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "54.73.98.29",
+    "F": "54.73.98.29",
+    "T": "dns.pants-on.net.",
+    "method": "POST",
+    "authority": "54.73.98.29",
+    "counts": {
+      "pairs": 6,
+      "comparable": 0,
+      "status_403": 6
+    }
+  },
+  {
+    "vantage": "singapore",
+    "A": "54.73.98.29",
+    "F": "54.73.98.29",
+    "T": "dns.pants-on.net.",
+    "method": "POST",
+    "authority": "dns.pants-on.net",
+    "counts": {
+      "pairs": 6,
+      "comparable": 6,
+      "status_200": 6
+    }
+  }
+]
